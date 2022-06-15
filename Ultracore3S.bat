@@ -11,6 +11,6 @@ cls
 :ultracore-panel
 cls
 echo Select a version to test.
-echo -- No versions of Base OS have been made yet. When one is available, you can test it here. Type !back -boot to return to boot or run an alternative command. --
+echo -- No versions of Base OS have been made yet. When one is available, you can test it here. Type !boot to return to boot or run an alternative command. --
 set /p commanducp1=Enter command... 
 if %commanducp1%==!boot goto :boot
