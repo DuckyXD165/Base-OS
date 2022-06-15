@@ -1,5 +1,0 @@
-Thank you for visiting Base OS. Here's what it can do!
-* Base OS is coded using Batch. It has the core necessities for an OS.
-* Base OS is not a full operating system. It is a DOS. Its actual name is BaseDOS.
-This is subject to change. A public release can be found at GitOSC9/Base-OS-Public.
-Last updated on Jun 14, 2022.
