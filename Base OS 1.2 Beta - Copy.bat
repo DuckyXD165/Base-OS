@@ -72,6 +72,7 @@ echo To reset username and password (1)
 echo To go back type (Back)
 set /p commandsettingsAdmin1=Enter keyword... 
 if %commandsettingsAdmin1%==Back goto :user-Admin
+if %commandsettingsAdmin1%==1 goto :user-reset
 cls
 
 :logout-Admin
@@ -88,3 +89,15 @@ if %commandlogoutAdmin1%==3 shutdown -s -t 1
 if %commandlogoutAdmin1%==4 shutdown -r -t 1
 if %commandlogoutAdmin1%==5 goto :user-Admin
 cls
+
+
+:user-reset
+if exist programbase.dll del programbase.dll
+if exist programdata.dll del programdata.dll
+echo Username and password reset done.
+echo Type start to register again.
+set /p commandsettingsReset=Enter keyword...
+if %commandsettingsReset%==start goto :Login
+cls
+
+ 
