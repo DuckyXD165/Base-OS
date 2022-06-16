@@ -87,11 +87,3 @@ if %commandlogoutAdmin1%==3 shutdown -s -t 1
 if %commandlogoutAdmin1%==4 shutdown -r -t 1
 if %commandlogoutAdmin1%==5 goto :user-Admin
 cls
-
-:incorrect
-cls
-echo Incorrect username or password. Try again.
-set /p commandincorrect1=Enter username... 
-if %commandincorrect1%==Admin goto :boot-pass-Admin
-if not %commandincorrect1%==Admin goto :incorrect
-cls
