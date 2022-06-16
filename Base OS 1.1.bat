@@ -87,3 +87,4 @@ if %commandlogoutAdmin1%==3 shutdown -s -t 1
 if %commandlogoutAdmin1%==4 shutdown -r -t 1
 if %commandlogoutAdmin1%==5 goto :user-Admin
 cls
+
