@@ -54,5 +54,5 @@ for /f "tokens=*" %%a in (databaseP.dll) do (
 if not defined authenticated (echo Invalid password & goto :begin)
 cls
 
-
-
+start BaseUI.bat
+cls

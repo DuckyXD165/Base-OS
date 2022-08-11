@@ -78,7 +78,7 @@ cls
 
 :PyTest
 cls
-python BaseUILogin.py
+python BaseConnecter.py
 timeout 10
 echo Type back togo to Main Menu
 set /p commandsettingsGui=Enter keyword...
