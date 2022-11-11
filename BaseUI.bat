@@ -42,8 +42,8 @@ cls
 
 :terminal
 cls
-title Base OS 1.2 Terminal
-echo Type Base1.2.bat to return to the OS.
+title Base OS 1.3 Terminal
+echo Type BaseUI.bat to return to the OS.
 cmd
 cls
 
