@@ -118,6 +118,5 @@ if exist databaseU.dll del databaseU.dll
 if exist databaseP.dll del databaseP.dll
 echo Username and password reset done.
 echo Type start to register again.
-set /p commandsettingsReset=Enter keyword...
-if %commandsettingsReset%==start goto :login
+goto login:
 cls
